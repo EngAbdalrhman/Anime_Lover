@@ -1,0 +1,316 @@
+* {
+}
+
+body {
+  background-color: #fafafa;
+}
+.main-eader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*width: fit-content;*/
+}
+.main-eader {
+  /* sticky on */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fafafa;
+  height: 100px;
+}
+.section-0 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2%;
+  margin-left: 5%;
+  gap: 50px;
+}
+.section-0 h1 {
+  color: blue;
+}
+.navigator {
+  margin: 3%;
+  display: flex;
+  flex: 0 1 auto;
+  gap: 50px;
+  margin-right: 5%;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* unvisited link */
+a:link {
+  color: Black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: Black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(0, 162, 255);
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+.btn_start {
+  color: white;
+  background-color: blue;
+  border-color: blue;
+  /* width: 130px;
+  height: 40px; */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(210, 210, 210);
+  /* shadow */
+  /* text-shadow:
+    1px 1px 1px red,
+    2px 2px 1px red; */
+}
+.main-container {
+  /* on in fixed */
+  padding-top: 200px;
+}
+.main-container {
+  /* width: 500px;
+  align-items: center;
+  text-align: center; */
+  width: 50%;
+  text-align: center;
+  /* background-color: red; */
+  margin: auto;
+}
+.main-txt {
+  width: 70%;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  text-decoration: solid;
+  margin: auto;
+}
+.main-container p {
+  color: #a1a1a1;
+  font-size: larger;
+}
+
+/* .fab {
+  color: blue;
+  width: auto;
+} */
+
+.material-icons {
+  color: blue;
+}
+
+/* .visa {
+  display: flex;
+  align-items: center;
+}
+.clock {
+  display: flex;
+  align-items: center;
+} */
+.line-z {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  margin: auto;
+}
+.visa {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-right: 5%;
+}
+.clock {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-left: 2%;
+}
+.line-z {
+  display: flex;
+  /* margin: auto; */
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+}
+.visa p {
+  padding-left: 10px;
+}
+.clock p {
+  padding-left: 10px;
+}
+.tatake {
+  display: flex;
+  margin: auto;
+  width: 50%;
+  border-radius: 30px;
+}
+.logo {
+  /* width: 50px; */
+  font-size: 30px;
+  /* width: 24px !important;
+  height: 24px !important; */
+}
+
+.play {
+  display: flex;
+  color: blue;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+}
+.play_circule {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-color: blue;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: -10px;
+  position: absolute;
+  left: 50%;
+  top: 145%;
+  transform: translate(-50%, -50%);
+}
+.play_circule {
+  /* on sticky */
+  left: 50%;
+  top: 109%;
+  transform: translate(-50%, -50%);
+}
+.aot {
+  color: blue;
+  font-size: xx-large;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section-1 {
+  display: flex;
+}
+.section-1-slide {
+  margin-left: 5%;
+  width: 700px;
+}
+.section-1-slide h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.section-1-slide p {
+  font-size: large;
+  font-family: sans-serif;
+  /* color: #a1a1a1; */
+}
+.avatar {
+  border-radius: 40px;
+  /* padding-left: 40px; */
+}
+.section-1-container {
+  border-left: 5px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section-1-container-txt h3 {
+  color: #a1a1a1;
+  /* padding-left: 40px; */
+}
+
+.section-2 {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row-reverse;
+}
+.section-2-slide {
+  margin-right: 5%;
+  width: 700px;
+}
+.section-2-slide h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.section-2-slide p {
+  font-size: large;
+  font-family: sans-serif;
+  /* color: #a1a1a1; */
+}
+
+.section-2-container {
+  border-right: 5px solid blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section-2-container-txt h3 {
+  color: #a1a1a1;
+  text-align: center;
+  /* padding-left: 40px; */
+}
+
+.myfooter {
+  background-color: blue;
+  height: 100px;
+}
+
+.section-3 {
+  display: flex;
+  margin-top: 10px;
+}
+.section-3-slide {
+  margin: auto;
+  margin-left: 5%;
+  width: 700px;
+}
+.section-3-slide h2 {
+  font-size: 50px;
+  font-family: sans-serif;
+}
+.section-3-slide p {
+  font-size: large;
+  font-family: sans-serif;
+  /* color: #a1a1a1; */
+}
+
+.section-3-container {
+  border-left: 5px solid blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.section-3-container-txt h3 {
+  color: #a1a1a1;
+  /* padding-left: 40px; */
+}
+
+.like {
+  margin: auto;
+  height: 350px;
+}
+
+.copyright {
+  color: white;
+}
