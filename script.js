@@ -1,10 +1,15 @@
 "use strict";
 // for all
 document.querySelector(".btn_start").style.cursor = "pointer";
+document.querySelector(".logo").style.cursor = "pointer";
 
 document.querySelector(".btn_start").addEventListener("click", function () {
   console.log("btn clicked");
   window.open("pricing.html");
+});
+
+document.querySelector(".logo").addEventListener("click", function () {
+  location.replace("index.html");
 });
 
 /* 
